@@ -1,0 +1,155 @@
+#navbar_supported_content ul > li > button.active {
+  background-color: #33334d;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+#navbar_supported_content ul > li > button {
+  font-weight: bold;
+  color: black;
+}
+
+#pills_tabcontent {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin: 0px auto;
+  padding: 30px; /* important factor */
+}
+
+#pills_home_tabcontent .row .col {
+  border-width: 4px !important;
+  border-radius: 8px !important;
+}
+
+#clickable_country_change i {
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#click_change_to_other_country i {
+  position: relative;
+}
+
+#click_change_to_other_country i > b {
+  padding:10px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#click_change_to_my_country i {
+  position: relative;
+}
+
+#click_change_to_my_country i > b {
+  padding:10px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#select_country_modal_body .col-3 {
+  cursor: pointer;
+  border: 2px solid !important;
+  font-weight: 600;
+}
+
+#select_country_modal_body .col-3:hover {
+  background-color: #a6a6a6;
+}
+
+#navbar_search_country_input {
+  position: relative;
+  display: inline-block;
+}
+
+#navbar_search_dropdown_div {
+  max-height: 60vh;
+  max-width:280px;
+  position: absolute;
+  display: inline-block;
+  overflow-x:scroll;
+  overflow-y:scroll;
+  margin-right:13px !important;
+  margin-top:5px !important;
+  z-index:10;
+  border: 2px solid black;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#navbar_search_dropdown_tbody {
+  cursor: pointer;
+}
+
+table > thead {
+  background: #e1e1ea;
+  top: 0;
+  position: sticky;
+  z-index: 5;
+}
+
+#pills_country_list_tabcontent div > table > tbody > tr {
+  cursor: pointer;
+}
+
+.chart-container {
+  position:relative;
+  height:100%;
+  width:100%;
+  border:3px solid #515190;
+  border-radius:8px;
+}
+
+#pills_subscription_tabcontent {
+  background-image: url('../covid_bg.jpg');
+}
+
+
+.faq-section .mb-0 > a {
+  display: block;
+  position: relative;
+}
+
+.faq-section .mb-0 > a:after {
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  right: 0;
+  font-weight: 600;
+}
+
+.faq-section .mb-0 > a[aria-expanded="true"]:after {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+}
+
+.faq-section a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+
+.faq-section a:hover {
+  text-decoration: underline;
+}
+
+#accordion2 a {
+  color: #006080 !important;
+}
+
+#accordion3 table td {
+  font-weight: 500;
+}
